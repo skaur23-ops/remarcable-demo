@@ -1,0 +1,54 @@
+# ----------------------------
+# Terraform
+# ----------------------------
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# ----------------------------
+# Environment variables
+# ----------------------------
+.env
+.env.*
+*.env
+
+# ----------------------------
+# AWS credentials (IMPORTANT)
+# ----------------------------
+.aws/
+credentials
+config
+
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env/
+*.sqlite3
+
+# ----------------------------
+# Docker
+# ----------------------------
+*.log
+
+# ----------------------------
+# macOS / Windows
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# IDEs
+# ----------------------------
+.vscode/
+.idea/
