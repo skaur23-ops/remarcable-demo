@@ -43,7 +43,7 @@ It showcases how to deploy, scale, and operate a service using modern DevOps pra
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/skaur23-ops/remarcable-demo.git
 cd remarcable-demo/terraform
 ```
 
