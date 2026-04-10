@@ -125,3 +125,34 @@ terraform destroy
 ## Notes
 
 This project focuses on demonstrating core DevOps patterns such as scalability, automation, and observability rather than production-grade hardening.
+
+## AI Assistance Disclosure
+
+### Tools Used
+
+* ChatGPT: Used for guidance on Terraform syntax, debugging issues, and improving documentation clarity
+
+---
+
+### Prompts & Modifications
+
+* Asked for guidance on structuring Terraform resources (ECS, ALB, autoscaling)
+* Requested help debugging networking and ECS connectivity issues (ALB, target groups, health checks)
+* Used AI suggestions as a baseline and made adjustments based on testing and understanding of AWS concepts
+* Refined architecture and README content to improve clarity and completeness
+
+---
+
+### Verification
+
+* Manually tested all infrastructure using Terraform (`plan` and `apply`)
+* Verified ECS service functionality via ALB endpoint
+* Debugged and resolved issues such as 504/503 errors, target group health, and security group configuration
+* Validated autoscaling behavior through load testing
+* Reviewed AWS documentation to confirm correctness of configurations
+
+---
+
+### Accountability
+
+All architectural decisions, trade-offs, and implementations in this project were reviewed, understood, and validated by me. I am able to explain all components of this solution without AI assistance.
